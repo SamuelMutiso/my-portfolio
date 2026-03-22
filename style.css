@@ -1,4 +1,4 @@
-/* A basic reset - this removes defaul browser spacing*/
+/* A basic setup */
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +8,29 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; */ light grey backround */
+    background-color:white;
     color: #333;
 }
 
+
 header {
-    background-color: 081e29;
+    background-color: navy;
     color: white;
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
+}
+
+header a {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+#about {
+    padding: 40px 10%;
+}
+
+.about-container {
+    display:flex;                   */ im using flex for layout */
+    align-items: center;            */ centers items vertically */
+    gap: 30px;                      */ space betwen picture and text */
 }
