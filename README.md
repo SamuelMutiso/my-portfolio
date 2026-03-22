@@ -4,8 +4,7 @@ This is my personal portfolio
 
 ## Tech used
 HTML
-CSS 
-FLEXBOX
+CSS (Grid & Flexbox)
 
 ## Projects
 -Botanic shop
