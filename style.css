@@ -1,5 +1,5 @@
 /* A basic setup */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -60,7 +60,7 @@ header a {
 
 #projects {
     padding: 40px 10%;                          /* fixed typo from P to p */
-    background-color: #f9f9f9f;                 /* light grey background */
+    background-color: f9f9f9f;                 /* light grey background */
 }
 
 .section-title {
