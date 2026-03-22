@@ -30,22 +30,23 @@ header a {
 }
 
 .about-container {
-    display:flex;                   */ im using flex for layout */
-    align-items: center;            */ centers items vertically */
-    gap: 30px;                      */ space betwen picture and text */
+    display:flex;                   /*im using flex for layout */
+    align-items: center;            /*centers items vertically */
+    gap: 30px;                      /*space betwen picture and text */
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;  */ makes it to be in a circle */
-    border: 4px solid navy;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;  /* makes it to be in a circle */
+    border: 3px solid navy;
     object-fit: cover;
-    flex-shrink: 0;     */ prevents image from getting squashed */
+    flex-shrink: 0;     /* prevents image from getting squashed */
+    margin-right: 40px;
 }
 
 #projects {
-    padding: 40px 10%;                          */ fixed typo from P to p */
+    padding: 40px 10%;                          /* fixed typo from P to p */
     background-color: #f9f9f9f;   /* light grey background */
 }
 
@@ -62,8 +63,8 @@ header a {
 
 .project-card {
     background-color: white;
-    padding: 25px;
-    border: 1px solid black;        */ simple border instead of shadows */
+    padding: 20px;
+    border: 1px solid black;        /*simple border instead of shadows */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@ header a {
 }
 
 .project-card img {
-    width: 100%;            */ makes the image to fit the card */
+    width: 100%;            /*makes the image to fit the card */
     height: 250px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
