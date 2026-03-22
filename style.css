@@ -11,3 +11,10 @@ body {
     background-color: #f4f4f4; */ light grey backround */
     color: #333;
 }
+
+header {
+    background-color: 081e29;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
