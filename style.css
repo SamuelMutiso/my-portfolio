@@ -32,22 +32,35 @@ header a {
 .about-container {
     display:flex;                   /*im using flex for layout */
     align-items: center;            /*centers items vertically */
-    gap: 30px;                      /*space betwen picture and text */
+    gap: 40px;                      /*space betwen picture and text */
 }
 
 .profile-pic {
     width: 250px;
     height: 250px;
     border-radius: 50%;  /* makes it to be in a circle */
-    border: 3px solid navy;
+    border: 0px solid navy;
     object-fit: cover;
     flex-shrink: 0;     /* prevents image from getting squashed */
-    margin-right: 40px;
+}
+
+.about-text h2 {
+    margin-bottom: 15px;
+}
+
+.about-text h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-text ul {
+    padding-left: 20px;
 }
 
 #projects {
     padding: 40px 10%;                          /* fixed typo from P to p */
-    background-color: #f9f9f9f;   /* light grey background */
+    background-color: #f9f9f9f;                 /* light grey background */
 }
 
 .section-title {
@@ -64,18 +77,15 @@ header a {
 .project-card {
     background-color: white;
     padding: 20px;
-    border: 1px solid black;        /*simple border instead of shadows */
+    border: 1px solid #ddd;        /*simple border instead of shadows */
     text-align: center;
-    display: flex;
-    flex-direction: column;
-
 }
 
 .project-card img {
     width: 100%;            /*makes the image to fit the card */
     height: 250px;
+    object-fit: cover;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
 }
 
 footer {
