@@ -34,3 +34,27 @@ header a {
     align-items: center;            */ centers items vertically */
     gap: 30px;                      */ space betwen picture and text */
 }
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  */ makes it to be in a circle */
+    border: 3px solid navy;
+    object-fit: cover;
+}
+
+#projects {
+    padding: 40px 10%;
+    background-color: #f9f9f9f;   /* light grey background */
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-grid {                    
+    display: grid;                      /* trigger grid */
+    grid-template-columns: 1fr 1fr;     /* two equal columns */
+    gap: 20px;                          
+}
