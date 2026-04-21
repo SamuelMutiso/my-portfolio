@@ -8,10 +8,16 @@
 </head>
 <body>
     <header>
-        <h1> Samuel Mutiso</h1>
-        <nav>
-            <a href="https://github.com/samuelMutiso" target="_blank">My Github profile</a>
-        </nav>
+        <div class="header-container">
+            <h1>Samuel Mutiso</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="https://github.com/samuelMutiso" target="_blank">GitHub</a>
+                <a href="mailto:muuosamuel335@gmail.com">Contact</a>
+            </nav>
+        </div>
+    
     </header>
 
     <section id="about">
@@ -20,37 +26,51 @@
             class="profile-pic">
 
             <div class="about-text">
-                <h2> About</h2>
-                <p> I am software engineering student in kenya in Moringa school. I am passionate about sofware development as a whole, coding itself anf also building tools that will make life smooth and easier</p>
+                <h2> About Me</h2>
+                <p> I am software engineering student in kenya in Moringa school. I am passionate about building tools that simplify life. I specialize in front-end logic and creating seamless user experiences. </p>
 
                 <h3> Technical skills</h3>
-                <ul>
-                    <li> Git & Github</li>
-                    <li> HTML & CSS</li>
-                    <li> Java script</li>
-                </ul>
+                <div class="skills-grid">
+                    <span>Javascript</span>
+                    <span>HTML & CSS</span>
+                    <span>Git & GitHub</span>
+                    <span>Web APIs</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="Projects">
-            <h2 class="section-title">My Projects</h2>
-            <div class="project-grid">
-
-                <div class="project-card">
-                    <img src="Assets/Screenshot 2026-03-22 at 20.49.54.png" alt="Botanic Shop Project">
-                    <h3>Botanic shop</h3>
-                    <p> This is a project cloned from my instructor where i practiced managing a multi-page e-commerce layout and styling </p>
-                </div>
-
-                <div class="project-card">
-                    <img src="Assets/Screenshot 2026-03-22 at 20.49.10.png" alt="The moon">
-                    <h3> The moon</h3>
-                    <p> In this project a responsive page built to master flexbox alignment and positioning</p>
-                </div>
-
+    <section id="projects"> 
+        <h2 class="section-title">My Projects</h2>
+    <div class="project-grid">
+         <div class="project-card featured">
+            <img src="Assets/Screenshot 2026-04-21 at 19.35.11.png" alt="wordly Project">
+            <div class="card-info">
+                <span class="badge">Most recent</span>
+                <h3>Wordly Dictionary</h3>
+                <p>Advanced SPA using the Dictionary API. Features include audio pronunciation, synonyms, and LocalStorage for data persistence.</p>
+                <a href="https://github.com/SamuelMutiso/WORDLY-PROJECT" class="view-btn">View Code</a>
             </div>
-    </section>
+        </div> 
+        <div class="project-card">
+            <img src="Assets/Screenshot 2026-03-22 at 20.49.54.png" alt="Botanic Shop Project">
+            <div class="card-info">
+                <h3>Botanic Shop</h3>
+                <p>A multi-page e-commerce layout built to master CSS Grid and structural HTML semantics.</p>
+                <a href="#" class="view-btn">View Code</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="Assets/Screenshot 2026-03-22 at 20.49.10.png" alt="The Moon Project">
+            <div class="card-info">
+                <h3>The Moon</h3>
+                <p>A responsive landing page focused on high-precision Flexbox alignment and positioning.</p>
+                <a href="#" class="view-btn">View Code</a>
+            </div>
+        </div>
+
+    </div> </section>
 
     <footer>
         <p>&copy;2026 Samuel Mutiso | Moringa School Student</p>
